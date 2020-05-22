@@ -865,7 +865,7 @@ footer a {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #a1b5a0;
+  background-color: #212121;
   padding: 20px;
   color: white;
   /*margin-top: 30px;*/
@@ -876,7 +876,7 @@ footer a {
 }
 
 .more_btn:hover {
-  background-color: #212121;
+  background-color: #779D7C;
 }
 
 .more_btn a {
