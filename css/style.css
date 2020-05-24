@@ -21,6 +21,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #12a3ea;
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
 }
