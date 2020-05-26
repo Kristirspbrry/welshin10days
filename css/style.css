@@ -234,7 +234,10 @@ Intro
   background-color: #F7F4EC;
   background-size: cover;
   z-index: 2;
-  background-image: url(../img/testimg);
+  /* background-image: url(../img/dragon_bg.png) no-repeat center center;
+  background: url(../img/intro-background.jpg) no-repeat center center;
+  background: url(../img/dragon_bg.png) no-repeat center center; */
+
 }
 #cd-intro #cd-intro-tagline {
   width: 90%;
