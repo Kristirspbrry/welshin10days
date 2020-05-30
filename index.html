@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+		<link rel="stylesheet" href="css/stylegummy.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 	<title>Learn Welsh in 10 days</title>
@@ -18,9 +19,45 @@
 <body>
 	<header class="cd-header">
 		<nav class="cd-primary-nav">
-			<ul>
+			<ul class="link_ul">
 				<!-- inser more links here -->
-				<li><a href="#0">About</a></li>
+				<li>
+					<div class="gummy-transition">
+						<main class="modal-main-content">
+								<a href="#modal-1" class="modal_btn cd-modal-trigger">About</a>
+						</main>
+
+						<div class="cd-modal" id="modal-1">
+							<div class="modal-content">
+
+								<div class="portrait_img"><img src="img/kristie_k.png" alt="img"></a></div>
+
+								<p>
+									I wanted to create this project to explore language and words. Letters, words and numbers appear in different colours and shapes
+									in my mind and I've noticed how that has really helped me to remember and memorise them. Therefore, I wanted to share that vision
+									with you and hopefully make an interesting and colourful learning experience.
+								</p>
+								<p>
+									And why Welsh? Well, its vocabulary is adorned with magnificent, almost otherwodly sounds, that really
+									resonate with the earthy spirit of this world. All the sounds and intonations together create a very
+									grounding verbal expression.
+								</p>
+								<p>
+									All of the pronounciations have been recorded by people with various Welsh dialects, so you could see
+									real reprentation of the whole of Wales and how the Welsh language is spoken throughout the country by real people. 
+								</p>
+							</div> <!-- .modal-content -->
+
+							<a href="#0" class="modal-close">Close</a>
+						</div> <!-- .cd-modal -->
+
+						<div class="cd-transition-layer" data-frame="25">
+							<div class="bg-layer"></div>
+						</div> <!-- .cd-transition-layer -->
+
+					</div>
+
+				</li>
 				<li><a href="#0">Downloads</a></li>
 			</ul>
 		</nav> <!-- cd-primary-nav -->
@@ -2452,6 +2489,9 @@
 	</footer>
 
 	</main>
+
+
+
 	<script>
   // Find all buttons on the page
   // I've used data attributes for the buttons, and the values of these
@@ -2506,6 +2546,11 @@
   })
 </script>
 <script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/main2.js"></script> <!-- Resource jQuery -->
+<script src="js/main.js"></script> <!-- gummy code -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-2.2.1-min.js"><\/script>');
+</script>
 </body>
 </html>

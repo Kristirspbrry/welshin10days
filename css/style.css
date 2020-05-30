@@ -102,6 +102,7 @@ Navigation
 -------------------------------- */
 .cd-header {
   position: absolute;
+  text-align: right;
   top: 0;
   left: 0;
   width: 100%;
@@ -149,13 +150,13 @@ Navigation
 }
 
 .cd-primary-nav {
-  /* mobile first - navigation hidden by default, triggered by tap/click on navigation icon */
+  /* mobile first - navigation hidden by default, triggered by tap/click on navigation icon
   float: right;
   margin-right: 5%;
   width: 44px;
   height: 100%;
   background: url("../img/cd-icon-menu.svg") no-repeat center center;
-  background-size: 44px 44px;
+  background-size: 44px 44px; */
 }
 .cd-primary-nav ul {
   position: absolute;
@@ -184,6 +185,12 @@ Navigation
   border-top: 1px solid #051426;
   color: #f0eee1;
 }
+
+.cd-primary-nav a:hover {
+  color: #000;
+}
+
+
 @media only screen and (min-width: 768px) {
   .cd-primary-nav {
     /* reset navigation values */
@@ -234,9 +241,9 @@ Intro
   background-color: #F7F4EC;
   background-size: cover;
   z-index: 2;
-   background-image: url(../img/dragon_bg.png) no-repeat center center;
+  /*background-image: url(../img/dragon_bg.png) no-repeat center center;
   background: url(../img/intro-background.jpg) no-repeat center center;
-  background: url(../img/dragon_bg.png) no-repeat center center; 
+  background: url(../img/dragon_bg.png) no-repeat center center;*/
 
 }
 #cd-intro #cd-intro-tagline {
@@ -315,6 +322,13 @@ Intro
 Secondary Fixed Navigation
 
 -------------------------------- */
+
+ul.link_ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
 .cd-secondary-nav {
   position: relative;
   z-index: 3;
@@ -783,6 +797,11 @@ input{
 }
 
 @media only screen and (max-width: 580px) {
+
+  .welsh_three{
+    width: 100%;
+  }
+
   .cd-section {
     margin: 0 auto;
     padding: 4em 0;
@@ -895,4 +914,37 @@ footer a {
   vertical-align: bottom;
   text-align: center;;
   color: #575757;
+}
+
+
+a.list_flex_content {
+  display: flex !important;
+  flex-direction: column;
+}
+
+b.b_small_txt {
+font-size: 0.8rem !important;
+}
+
+.cd-secondary-nav li a:hover b.b_small_txt {
+  background-color: transparent !important;
+  padding: 0;
+  border-radius: 0;
+  color: black;
+  }
+
+.cd-secondary-nav li a.active b.b_small_txt {
+  background-color: transparent !important;
+  padding: 0;
+  border-radius: 0;
+  color: black;
+}
+
+.portrait_img {
+  max-width: 500px;
+  margin: auto;
+  border: 30px solid #c5bfa8;
+  border-radius: 65%;
+  width: 500px;
+  height: 500px;
 }
