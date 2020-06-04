@@ -255,7 +255,7 @@ Intro
 }
 #cd-intro h1 {
   font-family: "Manrope", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   margin: auto;
 }
@@ -800,6 +800,13 @@ input{
 
   .welsh_three{
     width: 100%;
+  }
+
+  #cd-intro h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: auto;
   }
 
   .cd-section {
