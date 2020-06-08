@@ -217,8 +217,8 @@ Navigation
   }
   .cd-primary-nav li {
     display: inline-block;
-    margin-left: 1em;    
-    height: 100px;
+    margin-left: 1em;
+    /*height: 100px; */
   }
   .cd-primary-nav a {
     display: inline-block;
