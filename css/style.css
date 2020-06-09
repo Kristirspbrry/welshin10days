@@ -846,7 +846,19 @@ button {
   background: transparent;
   border: 0;
   width: 40px;
+  height: 40px;
   margin-top: 5px;
+  padding-top: 3px;
+}
+
+button:focus {
+  outline: none;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  padding-top: 3px;
+  border-radius: 50%;
 }
 
 /*footer */
