@@ -424,7 +424,7 @@ ul.link_ul {
     transition: padding 0.2s;
   }
   .cd-secondary-nav li a b {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Manrope", sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     font-size: 1.5rem;
@@ -460,6 +460,10 @@ ul.link_ul {
 
   b#last_child {
     padding: 2px 5px;
+  }
+
+  b#first_child {
+    padding: 2px 14px;
   }
 
   .cd-secondary-nav li:nth-child(1) a span {
