@@ -424,6 +424,7 @@ ul.link_ul {
     transition: padding 0.2s;
   }
   .cd-secondary-nav li a b {
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     font-size: 1.5rem;
